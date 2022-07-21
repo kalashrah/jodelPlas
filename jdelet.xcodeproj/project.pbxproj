@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC15DF22888BECF00B9C5FD /* k10Cell.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15DF02888BECF00B9C5FD /* k10Cell.h */; };
+		FAC15DF32888BECF00B9C5FD /* k10Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15DF12888BECF00B9C5FD /* k10Cell.m */; };
+		FAC15E7B2888DB1000B9C5FD /* LOSPPresetTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E5B2888DB1000B9C5FD /* LOSPPresetTableViewController.h */; };
+		FAC15E7C2888DB1000B9C5FD /* CLLocationCoordinate2D+LOSPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E5C2888DB1000B9C5FD /* CLLocationCoordinate2D+LOSPAdditions.h */; };
+		FAC15E7D2888DB1000B9C5FD /* LOSPLocationPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E5D2888DB1000B9C5FD /* LOSPLocationPickerViewController.m */; };
+		FAC15E7E2888DB1000B9C5FD /* LOSPSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E5E2888DB1000B9C5FD /* LOSPSwizzler.h */; };
+		FAC15E7F2888DB1000B9C5FD /* MKDirections+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E5F2888DB1000B9C5FD /* MKDirections+LOSPAdditions.m */; };
+		FAC15E802888DB1000B9C5FD /* LOSPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E602888DB1000B9C5FD /* LOSPRootViewController.m */; };
+		FAC15E812888DB1000B9C5FD /* MKMapView+LOSPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E612888DB1000B9C5FD /* MKMapView+LOSPAdditions.h */; };
+		FAC15E822888DB1000B9C5FD /* UIView+LOSPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E622888DB1000B9C5FD /* UIView+LOSPAdditions.h */; };
+		FAC15E832888DB1000B9C5FD /* LOSPLocationPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E632888DB1000B9C5FD /* LOSPLocationPickerViewController.h */; };
+		FAC15E842888DB1000B9C5FD /* CLLocationCoordinate2D+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E642888DB1000B9C5FD /* CLLocationCoordinate2D+LOSPAdditions.m */; };
+		FAC15E852888DB1000B9C5FD /* LOSPPresetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E652888DB1000B9C5FD /* LOSPPresetTableViewController.m */; };
+		FAC15E862888DB1000B9C5FD /* MKDirections+LOSPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E662888DB1000B9C5FD /* MKDirections+LOSPAdditions.h */; };
+		FAC15E872888DB1000B9C5FD /* LOSPSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E672888DB1000B9C5FD /* LOSPSwizzler.m */; };
+		FAC15E882888DB1000B9C5FD /* UIView+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E682888DB1000B9C5FD /* UIView+LOSPAdditions.m */; };
+		FAC15E892888DB1000B9C5FD /* MKMapView+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E692888DB1000B9C5FD /* MKMapView+LOSPAdditions.m */; };
+		FAC15E8A2888DB1000B9C5FD /* LOSPRootViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E6A2888DB1000B9C5FD /* LOSPRootViewController.h */; };
+		FAC15E8B2888DB1000B9C5FD /* LOSPLocationSpoofer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E6C2888DB1000B9C5FD /* LOSPLocationSpoofer.m */; };
+		FAC15E8C2888DB1000B9C5FD /* LOSPTrip+LOSPPresets.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E6D2888DB1000B9C5FD /* LOSPTrip+LOSPPresets.h */; };
+		FAC15E8D2888DB1000B9C5FD /* CLLocation+LOSPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E6E2888DB1000B9C5FD /* CLLocation+LOSPAdditions.h */; };
+		FAC15E8E2888DB1000B9C5FD /* LOSPLocationDebugViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E6F2888DB1000B9C5FD /* LOSPLocationDebugViewController.h */; };
+		FAC15E8F2888DB1000B9C5FD /* LOSPLocationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E702888DB1000B9C5FD /* LOSPLocationProvider.h */; };
+		FAC15E902888DB1000B9C5FD /* CLPlacemark+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E712888DB1000B9C5FD /* CLPlacemark+LOSPAdditions.m */; };
+		FAC15E912888DB1000B9C5FD /* LOSPTrip.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E722888DB1000B9C5FD /* LOSPTrip.m */; };
+		FAC15E922888DB1000B9C5FD /* MKCoordinateSpan+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E732888DB1000B9C5FD /* MKCoordinateSpan+LOSPAdditions.m */; };
+		FAC15E932888DB1000B9C5FD /* LOSPTrip+LOSPPresets.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E742888DB1000B9C5FD /* LOSPTrip+LOSPPresets.m */; };
+		FAC15E942888DB1000B9C5FD /* LOSPLocationSpoofer.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E752888DB1000B9C5FD /* LOSPLocationSpoofer.h */; };
+		FAC15E952888DB1000B9C5FD /* LOSPLocationDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E762888DB1000B9C5FD /* LOSPLocationDebugViewController.m */; };
+		FAC15E962888DB1000B9C5FD /* CLLocation+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15E772888DB1000B9C5FD /* CLLocation+LOSPAdditions.m */; };
+		FAC15E972888DB1000B9C5FD /* MKCoordinateSpan+LOSPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E782888DB1000B9C5FD /* MKCoordinateSpan+LOSPAdditions.h */; };
+		FAC15E982888DB1000B9C5FD /* LOSPTrip.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E792888DB1000B9C5FD /* LOSPTrip.h */; };
+		FAC15E992888DB1000B9C5FD /* CLPlacemark+LOSPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15E7A2888DB1000B9C5FD /* CLPlacemark+LOSPAdditions.h */; };
+		FAC15E9B2888DB7B00B9C5FD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC15E9A2888DB7B00B9C5FD /* CoreLocation.framework */; };
+		FAC15E9D2888DB8200B9C5FD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC15E9C2888DB8200B9C5FD /* MapKit.framework */; };
+		FAC15E9F2888DBF100B9C5FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC15E9E2888DBF100B9C5FD /* CoreGraphics.framework */; };
+		FAC15EC12888DD3100B9C5FD /* FRPViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EA12888DD3100B9C5FD /* FRPViewSection.h */; };
+		FAC15EC22888DD3100B9C5FD /* FRPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EA22888DD3100B9C5FD /* FRPreferences.m */; };
+		FAC15EC32888DD3100B9C5FD /* FRPListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EA32888DD3100B9C5FD /* FRPListCell.h */; };
+		FAC15EC42888DD3100B9C5FD /* FRPViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EA42888DD3100B9C5FD /* FRPViewCell.m */; };
+		FAC15EC52888DD3100B9C5FD /* FRPSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EA52888DD3100B9C5FD /* FRPSettings.m */; };
+		FAC15EC62888DD3100B9C5FD /* FRPSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EA62888DD3100B9C5FD /* FRPSegmentCell.m */; };
+		FAC15EC72888DD3100B9C5FD /* FRPSection.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EA72888DD3100B9C5FD /* FRPSection.m */; };
+		FAC15EC82888DD3100B9C5FD /* FRPSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EA82888DD3100B9C5FD /* FRPSliderCell.m */; };
+		FAC15EC92888DD3100B9C5FD /* FRPTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EA92888DD3100B9C5FD /* FRPTextFieldCell.h */; };
+		FAC15ECA2888DD3100B9C5FD /* FRPCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EAA2888DD3100B9C5FD /* FRPCell.h */; };
+		FAC15ECB2888DD3100B9C5FD /* FRPDeveloperCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EAB2888DD3100B9C5FD /* FRPDeveloperCell.h */; };
+		FAC15ECC2888DD3100B9C5FD /* FRPSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EAC2888DD3100B9C5FD /* FRPSwitchCell.m */; };
+		FAC15ECD2888DD3100B9C5FD /* FRPValueCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EAD2888DD3100B9C5FD /* FRPValueCell.h */; };
+		FAC15ECE2888DD3100B9C5FD /* FRPSelectListTable.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EAE2888DD3100B9C5FD /* FRPSelectListTable.h */; };
+		FAC15ECF2888DD3100B9C5FD /* FRPLinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EAF2888DD3100B9C5FD /* FRPLinkCell.m */; };
+		FAC15ED02888DD3100B9C5FD /* FRPViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EB02888DD3100B9C5FD /* FRPViewSection.m */; };
+		FAC15ED12888DD3100B9C5FD /* FRPSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EB12888DD3100B9C5FD /* FRPSettings.h */; };
+		FAC15ED22888DD3100B9C5FD /* FRPViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EB22888DD3100B9C5FD /* FRPViewCell.h */; };
+		FAC15ED32888DD3100B9C5FD /* FRPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EB32888DD3100B9C5FD /* FRPreferences.h */; };
+		FAC15ED42888DD3100B9C5FD /* FRPListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EB42888DD3100B9C5FD /* FRPListCell.m */; };
+		FAC15ED52888DD3100B9C5FD /* FRPDeveloperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EB52888DD3100B9C5FD /* FRPDeveloperCell.m */; };
+		FAC15ED62888DD3100B9C5FD /* FRPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EB62888DD3100B9C5FD /* FRPCell.m */; };
+		FAC15ED72888DD3100B9C5FD /* FRPTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EB72888DD3100B9C5FD /* FRPTextFieldCell.m */; };
+		FAC15ED82888DD3100B9C5FD /* FRPSliderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EB82888DD3100B9C5FD /* FRPSliderCell.h */; };
+		FAC15ED92888DD3100B9C5FD /* FRPSection.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EB92888DD3100B9C5FD /* FRPSection.h */; };
+		FAC15EDA2888DD3100B9C5FD /* FRPSegmentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EBA2888DD3100B9C5FD /* FRPSegmentCell.h */; };
+		FAC15EDB2888DD3100B9C5FD /* FRPLinkCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EBB2888DD3100B9C5FD /* FRPLinkCell.h */; };
+		FAC15EDC2888DD3100B9C5FD /* FRPSelectListTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EBC2888DD3100B9C5FD /* FRPSelectListTable.m */; };
+		FAC15EDD2888DD3100B9C5FD /* FRPSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EBD2888DD3100B9C5FD /* FRPSwitchCell.h */; };
+		FAC15EDE2888DD3100B9C5FD /* FRPValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EBE2888DD3100B9C5FD /* FRPValueCell.m */; };
+		FAC15EDF2888DD3100B9C5FD /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EBF2888DD3100B9C5FD /* ViewController.h */; };
+		FAC15EE02888DD3100B9C5FD /* FRPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EC02888DD3100B9C5FD /* FRPrefs.h */; };
+		FAC15EE32888E2FF00B9C5FD /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC15EE12888E2FF00B9C5FD /* ViewController.h */; };
+		FAC15EE42888E2FF00B9C5FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC15EE22888E2FF00B9C5FD /* ViewController.m */; };
+		FAFF2E91287F267F00D5FCBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFF2E90287F267F00D5FCBC /* UIKit.framework */; };
+		FAFF2E93287F267F00D5FCBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFF2E92287F267F00D5FCBC /* Foundation.framework */; };
+		FAFF2E95287F267F00D5FCBC /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFF2E94287F267F00D5FCBC /* CydiaSubstrate.framework */; };
+		FAFF2E9E287F267F00D5FCBC /* jdelet.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAFF2E9D287F267F00D5FCBC /* jdelet.mm */; };
+		FAFF2EAA287F269800D5FCBC /* choose.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFF2EA8287F269800D5FCBC /* choose.h */; };
+		FAFF2EAB287F269800D5FCBC /* choose.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAFF2EA9287F269800D5FCBC /* choose.mm */; };
+		FAFF2EAE287F279B00D5FCBC /* k10vc.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFF2EAC287F279B00D5FCBC /* k10vc.h */; };
+		FAFF2EAF287F279B00D5FCBC /* k10vc.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF2EAD287F279B00D5FCBC /* k10vc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAC15DCE2888A75800B9C5FD /* imports.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imports.h; sourceTree = "<group>"; };
+		FAC15DF02888BECF00B9C5FD /* k10Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = k10Cell.h; sourceTree = "<group>"; };
+		FAC15DF12888BECF00B9C5FD /* k10Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = k10Cell.m; sourceTree = "<group>"; };
+		FAC15E582888C3B100B9C5FD /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		FAC15E5B2888DB1000B9C5FD /* LOSPPresetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSPPresetTableViewController.h; sourceTree = "<group>"; };
+		FAC15E5C2888DB1000B9C5FD /* CLLocationCoordinate2D+LOSPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocationCoordinate2D+LOSPAdditions.h"; sourceTree = "<group>"; };
+		FAC15E5D2888DB1000B9C5FD /* LOSPLocationPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSPLocationPickerViewController.m; sourceTree = "<group>"; };
+		FAC15E5E2888DB1000B9C5FD /* LOSPSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSPSwizzler.h; sourceTree = "<group>"; };
+		FAC15E5F2888DB1000B9C5FD /* MKDirections+LOSPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKDirections+LOSPAdditions.m"; sourceTree = "<group>"; };
+		FAC15E602888DB1000B9C5FD /* LOSPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSPRootViewController.m; sourceTree = "<group>"; };
+		FAC15E612888DB1000B9C5FD /* MKMapView+LOSPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+LOSPAdditions.h"; sourceTree = "<group>"; };
+		FAC15E622888DB1000B9C5FD /* UIView+LOSPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LOSPAdditions.h"; sourceTree = "<group>"; };
+		FAC15E632888DB1000B9C5FD /* LOSPLocationPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSPLocationPickerViewController.h; sourceTree = "<group>"; };
+		FAC15E642888DB1000B9C5FD /* CLLocationCoordinate2D+LOSPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocationCoordinate2D+LOSPAdditions.m"; sourceTree = "<group>"; };
+		FAC15E652888DB1000B9C5FD /* LOSPPresetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSPPresetTableViewController.m; sourceTree = "<group>"; };
+		FAC15E662888DB1000B9C5FD /* MKDirections+LOSPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKDirections+LOSPAdditions.h"; sourceTree = "<group>"; };
+		FAC15E672888DB1000B9C5FD /* LOSPSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSPSwizzler.m; sourceTree = "<group>"; };
+		FAC15E682888DB1000B9C5FD /* UIView+LOSPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LOSPAdditions.m"; sourceTree = "<group>"; };
+		FAC15E692888DB1000B9C5FD /* MKMapView+LOSPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+LOSPAdditions.m"; sourceTree = "<group>"; };
+		FAC15E6A2888DB1000B9C5FD /* LOSPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSPRootViewController.h; sourceTree = "<group>"; };
+		FAC15E6C2888DB1000B9C5FD /* LOSPLocationSpoofer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSPLocationSpoofer.m; sourceTree = "<group>"; };
+		FAC15E6D2888DB1000B9C5FD /* LOSPTrip+LOSPPresets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LOSPTrip+LOSPPresets.h"; sourceTree = "<group>"; };
+		FAC15E6E2888DB1000B9C5FD /* CLLocation+LOSPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+LOSPAdditions.h"; sourceTree = "<group>"; };
+		FAC15E6F2888DB1000B9C5FD /* LOSPLocationDebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSPLocationDebugViewController.h; sourceTree = "<group>"; };
+		FAC15E702888DB1000B9C5FD /* LOSPLocationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSPLocationProvider.h; sourceTree = "<group>"; };
+		FAC15E712888DB1000B9C5FD /* CLPlacemark+LOSPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLPlacemark+LOSPAdditions.m"; sourceTree = "<group>"; };
+		FAC15E722888DB1000B9C5FD /* LOSPTrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSPTrip.m; sourceTree = "<group>"; };
+		FAC15E732888DB1000B9C5FD /* MKCoordinateSpan+LOSPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKCoordinateSpan+LOSPAdditions.m"; sourceTree = "<group>"; };
+		FAC15E742888DB1000B9C5FD /* LOSPTrip+LOSPPresets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LOSPTrip+LOSPPresets.m"; sourceTree = "<group>"; };
+		FAC15E752888DB1000B9C5FD /* LOSPLocationSpoofer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSPLocationSpoofer.h; sourceTree = "<group>"; };
+		FAC15E762888DB1000B9C5FD /* LOSPLocationDebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSPLocationDebugViewController.m; sourceTree = "<group>"; };
+		FAC15E772888DB1000B9C5FD /* CLLocation+LOSPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+LOSPAdditions.m"; sourceTree = "<group>"; };
+		FAC15E782888DB1000B9C5FD /* MKCoordinateSpan+LOSPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKCoordinateSpan+LOSPAdditions.h"; sourceTree = "<group>"; };
+		FAC15E792888DB1000B9C5FD /* LOSPTrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSPTrip.h; sourceTree = "<group>"; };
+		FAC15E7A2888DB1000B9C5FD /* CLPlacemark+LOSPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLPlacemark+LOSPAdditions.h"; sourceTree = "<group>"; };
+		FAC15E9A2888DB7B00B9C5FD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		FAC15E9C2888DB8200B9C5FD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/iOSSupport/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		FAC15E9E2888DBF100B9C5FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		FAC15EA12888DD3100B9C5FD /* FRPViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPViewSection.h; sourceTree = "<group>"; };
+		FAC15EA22888DD3100B9C5FD /* FRPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPreferences.m; sourceTree = "<group>"; };
+		FAC15EA32888DD3100B9C5FD /* FRPListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPListCell.h; sourceTree = "<group>"; };
+		FAC15EA42888DD3100B9C5FD /* FRPViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPViewCell.m; sourceTree = "<group>"; };
+		FAC15EA52888DD3100B9C5FD /* FRPSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSettings.m; sourceTree = "<group>"; };
+		FAC15EA62888DD3100B9C5FD /* FRPSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSegmentCell.m; sourceTree = "<group>"; };
+		FAC15EA72888DD3100B9C5FD /* FRPSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSection.m; sourceTree = "<group>"; };
+		FAC15EA82888DD3100B9C5FD /* FRPSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSliderCell.m; sourceTree = "<group>"; };
+		FAC15EA92888DD3100B9C5FD /* FRPTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPTextFieldCell.h; sourceTree = "<group>"; };
+		FAC15EAA2888DD3100B9C5FD /* FRPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPCell.h; sourceTree = "<group>"; };
+		FAC15EAB2888DD3100B9C5FD /* FRPDeveloperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPDeveloperCell.h; sourceTree = "<group>"; };
+		FAC15EAC2888DD3100B9C5FD /* FRPSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSwitchCell.m; sourceTree = "<group>"; };
+		FAC15EAD2888DD3100B9C5FD /* FRPValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPValueCell.h; sourceTree = "<group>"; };
+		FAC15EAE2888DD3100B9C5FD /* FRPSelectListTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSelectListTable.h; sourceTree = "<group>"; };
+		FAC15EAF2888DD3100B9C5FD /* FRPLinkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPLinkCell.m; sourceTree = "<group>"; };
+		FAC15EB02888DD3100B9C5FD /* FRPViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPViewSection.m; sourceTree = "<group>"; };
+		FAC15EB12888DD3100B9C5FD /* FRPSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSettings.h; sourceTree = "<group>"; };
+		FAC15EB22888DD3100B9C5FD /* FRPViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPViewCell.h; sourceTree = "<group>"; };
+		FAC15EB32888DD3100B9C5FD /* FRPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPreferences.h; sourceTree = "<group>"; };
+		FAC15EB42888DD3100B9C5FD /* FRPListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPListCell.m; sourceTree = "<group>"; };
+		FAC15EB52888DD3100B9C5FD /* FRPDeveloperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPDeveloperCell.m; sourceTree = "<group>"; };
+		FAC15EB62888DD3100B9C5FD /* FRPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPCell.m; sourceTree = "<group>"; };
+		FAC15EB72888DD3100B9C5FD /* FRPTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPTextFieldCell.m; sourceTree = "<group>"; };
+		FAC15EB82888DD3100B9C5FD /* FRPSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSliderCell.h; sourceTree = "<group>"; };
+		FAC15EB92888DD3100B9C5FD /* FRPSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSection.h; sourceTree = "<group>"; };
+		FAC15EBA2888DD3100B9C5FD /* FRPSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSegmentCell.h; sourceTree = "<group>"; };
+		FAC15EBB2888DD3100B9C5FD /* FRPLinkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPLinkCell.h; sourceTree = "<group>"; };
+		FAC15EBC2888DD3100B9C5FD /* FRPSelectListTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSelectListTable.m; sourceTree = "<group>"; };
+		FAC15EBD2888DD3100B9C5FD /* FRPSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSwitchCell.h; sourceTree = "<group>"; };
+		FAC15EBE2888DD3100B9C5FD /* FRPValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPValueCell.m; sourceTree = "<group>"; };
+		FAC15EBF2888DD3100B9C5FD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAC15EC02888DD3100B9C5FD /* FRPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPrefs.h; sourceTree = "<group>"; };
+		FAC15EE12888E2FF00B9C5FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAC15EE22888E2FF00B9C5FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAFF2E8D287F267F00D5FCBC /* jdelet.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = jdelet.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFF2E90287F267F00D5FCBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAFF2E92287F267F00D5FCBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAFF2E94287F267F00D5FCBC /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		FAFF2E99287F267F00D5FCBC /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		FAFF2E9B287F267F00D5FCBC /* jdelet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "jdelet-Prefix.pch"; path = "../jdelet-Prefix.pch"; sourceTree = "<group>"; };
+		FAFF2E9C287F267F00D5FCBC /* jdelet.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = jdelet.xm; sourceTree = "<group>"; };
+		FAFF2E9D287F267F00D5FCBC /* jdelet.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = jdelet.mm; sourceTree = "<group>"; };
+		FAFF2EA2287F267F00D5FCBC /* jdelet.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = jdelet.plist; sourceTree = "<group>"; };
+		FAFF2EA8287F269800D5FCBC /* choose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = choose.h; sourceTree = "<group>"; };
+		FAFF2EA9287F269800D5FCBC /* choose.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = choose.mm; sourceTree = "<group>"; };
+		FAFF2EAC287F279B00D5FCBC /* k10vc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = k10vc.h; sourceTree = "<group>"; };
+		FAFF2EAD287F279B00D5FCBC /* k10vc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = k10vc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFF2E89287F267F00D5FCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC15E9F2888DBF100B9C5FD /* CoreGraphics.framework in Frameworks */,
+				FAC15E9B2888DB7B00B9C5FD /* CoreLocation.framework in Frameworks */,
+				FAFF2E91287F267F00D5FCBC /* UIKit.framework in Frameworks */,
+				FAC15E9D2888DB8200B9C5FD /* MapKit.framework in Frameworks */,
+				FAFF2E93287F267F00D5FCBC /* Foundation.framework in Frameworks */,
+				FAFF2E95287F267F00D5FCBC /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC15E592888DAFF00B9C5FD /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAC15EA02888DD3100B9C5FD /* FRPreferences */,
+				FAC15E5A2888DB1000B9C5FD /* Private */,
+				FAC15E6B2888DB1000B9C5FD /* Public */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		FAC15E5A2888DB1000B9C5FD /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				FAC15E5B2888DB1000B9C5FD /* LOSPPresetTableViewController.h */,
+				FAC15E5C2888DB1000B9C5FD /* CLLocationCoordinate2D+LOSPAdditions.h */,
+				FAC15E5D2888DB1000B9C5FD /* LOSPLocationPickerViewController.m */,
+				FAC15E5E2888DB1000B9C5FD /* LOSPSwizzler.h */,
+				FAC15E5F2888DB1000B9C5FD /* MKDirections+LOSPAdditions.m */,
+				FAC15E602888DB1000B9C5FD /* LOSPRootViewController.m */,
+				FAC15E612888DB1000B9C5FD /* MKMapView+LOSPAdditions.h */,
+				FAC15E622888DB1000B9C5FD /* UIView+LOSPAdditions.h */,
+				FAC15E632888DB1000B9C5FD /* LOSPLocationPickerViewController.h */,
+				FAC15E642888DB1000B9C5FD /* CLLocationCoordinate2D+LOSPAdditions.m */,
+				FAC15E652888DB1000B9C5FD /* LOSPPresetTableViewController.m */,
+				FAC15E662888DB1000B9C5FD /* MKDirections+LOSPAdditions.h */,
+				FAC15E672888DB1000B9C5FD /* LOSPSwizzler.m */,
+				FAC15E682888DB1000B9C5FD /* UIView+LOSPAdditions.m */,
+				FAC15E692888DB1000B9C5FD /* MKMapView+LOSPAdditions.m */,
+				FAC15E6A2888DB1000B9C5FD /* LOSPRootViewController.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		FAC15E6B2888DB1000B9C5FD /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				FAC15E6C2888DB1000B9C5FD /* LOSPLocationSpoofer.m */,
+				FAC15E6D2888DB1000B9C5FD /* LOSPTrip+LOSPPresets.h */,
+				FAC15E6E2888DB1000B9C5FD /* CLLocation+LOSPAdditions.h */,
+				FAC15E6F2888DB1000B9C5FD /* LOSPLocationDebugViewController.h */,
+				FAC15E702888DB1000B9C5FD /* LOSPLocationProvider.h */,
+				FAC15E712888DB1000B9C5FD /* CLPlacemark+LOSPAdditions.m */,
+				FAC15E722888DB1000B9C5FD /* LOSPTrip.m */,
+				FAC15E732888DB1000B9C5FD /* MKCoordinateSpan+LOSPAdditions.m */,
+				FAC15E742888DB1000B9C5FD /* LOSPTrip+LOSPPresets.m */,
+				FAC15E752888DB1000B9C5FD /* LOSPLocationSpoofer.h */,
+				FAC15E762888DB1000B9C5FD /* LOSPLocationDebugViewController.m */,
+				FAC15E772888DB1000B9C5FD /* CLLocation+LOSPAdditions.m */,
+				FAC15E782888DB1000B9C5FD /* MKCoordinateSpan+LOSPAdditions.h */,
+				FAC15E792888DB1000B9C5FD /* LOSPTrip.h */,
+				FAC15E7A2888DB1000B9C5FD /* CLPlacemark+LOSPAdditions.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		FAC15EA02888DD3100B9C5FD /* FRPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				FAC15EA12888DD3100B9C5FD /* FRPViewSection.h */,
+				FAC15EA22888DD3100B9C5FD /* FRPreferences.m */,
+				FAC15EA32888DD3100B9C5FD /* FRPListCell.h */,
+				FAC15EA42888DD3100B9C5FD /* FRPViewCell.m */,
+				FAC15EA52888DD3100B9C5FD /* FRPSettings.m */,
+				FAC15EA62888DD3100B9C5FD /* FRPSegmentCell.m */,
+				FAC15EA72888DD3100B9C5FD /* FRPSection.m */,
+				FAC15EA82888DD3100B9C5FD /* FRPSliderCell.m */,
+				FAC15EA92888DD3100B9C5FD /* FRPTextFieldCell.h */,
+				FAC15EAA2888DD3100B9C5FD /* FRPCell.h */,
+				FAC15EAB2888DD3100B9C5FD /* FRPDeveloperCell.h */,
+				FAC15EAC2888DD3100B9C5FD /* FRPSwitchCell.m */,
+				FAC15EAD2888DD3100B9C5FD /* FRPValueCell.h */,
+				FAC15EAE2888DD3100B9C5FD /* FRPSelectListTable.h */,
+				FAC15EAF2888DD3100B9C5FD /* FRPLinkCell.m */,
+				FAC15EB02888DD3100B9C5FD /* FRPViewSection.m */,
+				FAC15EB12888DD3100B9C5FD /* FRPSettings.h */,
+				FAC15EB22888DD3100B9C5FD /* FRPViewCell.h */,
+				FAC15EB32888DD3100B9C5FD /* FRPreferences.h */,
+				FAC15EB42888DD3100B9C5FD /* FRPListCell.m */,
+				FAC15EB52888DD3100B9C5FD /* FRPDeveloperCell.m */,
+				FAC15EB62888DD3100B9C5FD /* FRPCell.m */,
+				FAC15EB72888DD3100B9C5FD /* FRPTextFieldCell.m */,
+				FAC15EB82888DD3100B9C5FD /* FRPSliderCell.h */,
+				FAC15EB92888DD3100B9C5FD /* FRPSection.h */,
+				FAC15EBA2888DD3100B9C5FD /* FRPSegmentCell.h */,
+				FAC15EBB2888DD3100B9C5FD /* FRPLinkCell.h */,
+				FAC15EBC2888DD3100B9C5FD /* FRPSelectListTable.m */,
+				FAC15EBD2888DD3100B9C5FD /* FRPSwitchCell.h */,
+				FAC15EBE2888DD3100B9C5FD /* FRPValueCell.m */,
+				FAC15EBF2888DD3100B9C5FD /* ViewController.h */,
+				FAC15EC02888DD3100B9C5FD /* FRPrefs.h */,
+			);
+			path = FRPreferences;
+			sourceTree = "<group>";
+		};
+		FAFF2E82287F267F00D5FCBC = {
+			isa = PBXGroup;
+			children = (
+				FAFF2E96287F267F00D5FCBC /* jdelet */,
+				FAFF2E8F287F267F00D5FCBC /* Frameworks */,
+				FAFF2E8E287F267F00D5FCBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFF2E8E287F267F00D5FCBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF2E8D287F267F00D5FCBC /* jdelet.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFF2E8F287F267F00D5FCBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC15E9E2888DBF100B9C5FD /* CoreGraphics.framework */,
+				FAC15E9C2888DB8200B9C5FD /* MapKit.framework */,
+				FAC15E9A2888DB7B00B9C5FD /* CoreLocation.framework */,
+				FAFF2E90287F267F00D5FCBC /* UIKit.framework */,
+				FAFF2E92287F267F00D5FCBC /* Foundation.framework */,
+				FAFF2E94287F267F00D5FCBC /* CydiaSubstrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAFF2E96287F267F00D5FCBC /* jdelet */ = {
+			isa = PBXGroup;
+			children = (
+				FAC15E592888DAFF00B9C5FD /* classes */,
+				FAC15DCE2888A75800B9C5FD /* imports.h */,
+				FAFF2EA8287F269800D5FCBC /* choose.h */,
+				FAFF2EA9287F269800D5FCBC /* choose.mm */,
+				FAFF2E9C287F267F00D5FCBC /* jdelet.xm */,
+				FAFF2EAC287F279B00D5FCBC /* k10vc.h */,
+				FAFF2EAD287F279B00D5FCBC /* k10vc.m */,
+				FAC15EE12888E2FF00B9C5FD /* ViewController.h */,
+				FAC15EE22888E2FF00B9C5FD /* ViewController.m */,
+				FAC15E582888C3B100B9C5FD /* main.storyboard */,
+				FAC15DF02888BECF00B9C5FD /* k10Cell.h */,
+				FAC15DF12888BECF00B9C5FD /* k10Cell.m */,
+				FAFF2E9D287F267F00D5FCBC /* jdelet.mm */,
+				FAFF2E97287F267F00D5FCBC /* Package */,
+				FAFF2E9A287F267F00D5FCBC /* Supporting Files */,
+			);
+			path = jdelet;
+			sourceTree = "<group>";
+		};
+		FAFF2E97287F267F00D5FCBC /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF2E98287F267F00D5FCBC /* DEBIAN */,
+				FAFF2E9F287F267F00D5FCBC /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		FAFF2E98287F267F00D5FCBC /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF2E99287F267F00D5FCBC /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		FAFF2E9A287F267F00D5FCBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF2E9B287F267F00D5FCBC /* jdelet-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFF2E9F287F267F00D5FCBC /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF2EA0287F267F00D5FCBC /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		FAFF2EA0287F267F00D5FCBC /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF2EA1287F267F00D5FCBC /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		FAFF2EA1287F267F00D5FCBC /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF2EA2287F267F00D5FCBC /* jdelet.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAFF2E8A287F267F00D5FCBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC15E942888DB1000B9C5FD /* LOSPLocationSpoofer.h in Headers */,
+				FAC15EDA2888DD3100B9C5FD /* FRPSegmentCell.h in Headers */,
+				FAC15E8C2888DB1000B9C5FD /* LOSPTrip+LOSPPresets.h in Headers */,
+				FAC15DF22888BECF00B9C5FD /* k10Cell.h in Headers */,
+				FAC15ECA2888DD3100B9C5FD /* FRPCell.h in Headers */,
+				FAC15EE32888E2FF00B9C5FD /* ViewController.h in Headers */,
+				FAC15E972888DB1000B9C5FD /* MKCoordinateSpan+LOSPAdditions.h in Headers */,
+				FAC15EC32888DD3100B9C5FD /* FRPListCell.h in Headers */,
+				FAC15E992888DB1000B9C5FD /* CLPlacemark+LOSPAdditions.h in Headers */,
+				FAC15ED92888DD3100B9C5FD /* FRPSection.h in Headers */,
+				FAC15E7B2888DB1000B9C5FD /* LOSPPresetTableViewController.h in Headers */,
+				FAFF2EAE287F279B00D5FCBC /* k10vc.h in Headers */,
+				FAC15E812888DB1000B9C5FD /* MKMapView+LOSPAdditions.h in Headers */,
+				FAC15E8A2888DB1000B9C5FD /* LOSPRootViewController.h in Headers */,
+				FAC15ECD2888DD3100B9C5FD /* FRPValueCell.h in Headers */,
+				FAC15E8D2888DB1000B9C5FD /* CLLocation+LOSPAdditions.h in Headers */,
+				FAC15EDD2888DD3100B9C5FD /* FRPSwitchCell.h in Headers */,
+				FAC15E7C2888DB1000B9C5FD /* CLLocationCoordinate2D+LOSPAdditions.h in Headers */,
+				FAC15ED22888DD3100B9C5FD /* FRPViewCell.h in Headers */,
+				FAC15ED32888DD3100B9C5FD /* FRPreferences.h in Headers */,
+				FAC15EDB2888DD3100B9C5FD /* FRPLinkCell.h in Headers */,
+				FAC15E8E2888DB1000B9C5FD /* LOSPLocationDebugViewController.h in Headers */,
+				FAC15ED12888DD3100B9C5FD /* FRPSettings.h in Headers */,
+				FAC15ECB2888DD3100B9C5FD /* FRPDeveloperCell.h in Headers */,
+				FAC15E982888DB1000B9C5FD /* LOSPTrip.h in Headers */,
+				FAC15ED82888DD3100B9C5FD /* FRPSliderCell.h in Headers */,
+				FAC15E822888DB1000B9C5FD /* UIView+LOSPAdditions.h in Headers */,
+				FAC15E8F2888DB1000B9C5FD /* LOSPLocationProvider.h in Headers */,
+				FAC15E832888DB1000B9C5FD /* LOSPLocationPickerViewController.h in Headers */,
+				FAC15E7E2888DB1000B9C5FD /* LOSPSwizzler.h in Headers */,
+				FAC15E862888DB1000B9C5FD /* MKDirections+LOSPAdditions.h in Headers */,
+				FAC15ECE2888DD3100B9C5FD /* FRPSelectListTable.h in Headers */,
+				FAC15EC92888DD3100B9C5FD /* FRPTextFieldCell.h in Headers */,
+				FAC15EC12888DD3100B9C5FD /* FRPViewSection.h in Headers */,
+				FAFF2EAA287F269800D5FCBC /* choose.h in Headers */,
+				FAC15EDF2888DD3100B9C5FD /* ViewController.h in Headers */,
+				FAC15EE02888DD3100B9C5FD /* FRPrefs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FAFF2E8C287F267F00D5FCBC /* jdelet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFF2EA5287F267F00D5FCBC /* Build configuration list for PBXNativeTarget "jdelet" */;
+			buildPhases = (
+				FAFF2E87287F267F00D5FCBC /* ShellScript */,
+				FAFF2E88287F267F00D5FCBC /* Sources */,
+				FAFF2E89287F267F00D5FCBC /* Frameworks */,
+				FAFF2E8A287F267F00D5FCBC /* Headers */,
+				FAFF2E8B287F267F00D5FCBC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jdelet;
+			productName = jdelet;
+			productReference = FAFF2E8D287F267F00D5FCBC /* jdelet.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFF2E83287F267F00D5FCBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FAFF2E8C287F267F00D5FCBC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FAFF2E86287F267F00D5FCBC /* Build configuration list for PBXProject "jdelet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFF2E82287F267F00D5FCBC;
+			productRefGroup = FAFF2E8E287F267F00D5FCBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFF2E8C287F267F00D5FCBC /* jdelet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FAFF2E87287F267F00D5FCBC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		FAFF2E8B287F267F00D5FCBC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFF2E88287F267F00D5FCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC15DF32888BECF00B9C5FD /* k10Cell.m in Sources */,
+				FAC15ED62888DD3100B9C5FD /* FRPCell.m in Sources */,
+				FAC15E882888DB1000B9C5FD /* UIView+LOSPAdditions.m in Sources */,
+				FAC15E7F2888DB1000B9C5FD /* MKDirections+LOSPAdditions.m in Sources */,
+				FAC15EDE2888DD3100B9C5FD /* FRPValueCell.m in Sources */,
+				FAC15E932888DB1000B9C5FD /* LOSPTrip+LOSPPresets.m in Sources */,
+				FAC15EC72888DD3100B9C5FD /* FRPSection.m in Sources */,
+				FAFF2EAF287F279B00D5FCBC /* k10vc.m in Sources */,
+				FAC15EC62888DD3100B9C5FD /* FRPSegmentCell.m in Sources */,
+				FAC15EDC2888DD3100B9C5FD /* FRPSelectListTable.m in Sources */,
+				FAC15E962888DB1000B9C5FD /* CLLocation+LOSPAdditions.m in Sources */,
+				FAC15E7D2888DB1000B9C5FD /* LOSPLocationPickerViewController.m in Sources */,
+				FAFF2EAB287F269800D5FCBC /* choose.mm in Sources */,
+				FAC15EC82888DD3100B9C5FD /* FRPSliderCell.m in Sources */,
+				FAC15EE42888E2FF00B9C5FD /* ViewController.m in Sources */,
+				FAC15ED02888DD3100B9C5FD /* FRPViewSection.m in Sources */,
+				FAC15E912888DB1000B9C5FD /* LOSPTrip.m in Sources */,
+				FAC15EC52888DD3100B9C5FD /* FRPSettings.m in Sources */,
+				FAC15E852888DB1000B9C5FD /* LOSPPresetTableViewController.m in Sources */,
+				FAC15ED52888DD3100B9C5FD /* FRPDeveloperCell.m in Sources */,
+				FAFF2E9E287F267F00D5FCBC /* jdelet.mm in Sources */,
+				FAC15E872888DB1000B9C5FD /* LOSPSwizzler.m in Sources */,
+				FAC15ECC2888DD3100B9C5FD /* FRPSwitchCell.m in Sources */,
+				FAC15E922888DB1000B9C5FD /* MKCoordinateSpan+LOSPAdditions.m in Sources */,
+				FAC15ECF2888DD3100B9C5FD /* FRPLinkCell.m in Sources */,
+				FAC15E902888DB1000B9C5FD /* CLPlacemark+LOSPAdditions.m in Sources */,
+				FAC15E8B2888DB1000B9C5FD /* LOSPLocationSpoofer.m in Sources */,
+				FAC15EC42888DD3100B9C5FD /* FRPViewCell.m in Sources */,
+				FAC15E892888DB1000B9C5FD /* MKMapView+LOSPAdditions.m in Sources */,
+				FAC15EC22888DD3100B9C5FD /* FRPreferences.m in Sources */,
+				FAC15E802888DB1000B9C5FD /* LOSPRootViewController.m in Sources */,
+				FAC15E842888DB1000B9C5FD /* CLLocationCoordinate2D+LOSPAdditions.m in Sources */,
+				FAC15E952888DB1000B9C5FD /* LOSPLocationDebugViewController.m in Sources */,
+				FAC15ED72888DD3100B9C5FD /* FRPTextFieldCell.m in Sources */,
+				FAC15ED42888DD3100B9C5FD /* FRPListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAFF2EA3287F267F00D5FCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"jdelet\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFF2EA4287F267F00D5FCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"jdelet\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		FAFF2EA6287F267F00D5FCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF22C58N48;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jdelet/jdelet-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = Jodel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAFF2EA7287F267F00D5FCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF22C58N48;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jdelet/jdelet-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = Jodel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFF2E86287F267F00D5FCBC /* Build configuration list for PBXProject "jdelet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFF2EA3287F267F00D5FCBC /* Release */,
+				FAFF2EA4287F267F00D5FCBC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFF2EA5287F267F00D5FCBC /* Build configuration list for PBXNativeTarget "jdelet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFF2EA6287F267F00D5FCBC /* Release */,
+				FAFF2EA7287F267F00D5FCBC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFF2E83287F267F00D5FCBC /* Project object */;
+}
